@@ -1,0 +1,1357 @@
+2025-06-14 18:16:02,809 - INFO - Cargando datos desde texto_extraido.csv...
+2025-06-14 18:16:02,960 - INFO - Datos cargados: 1000 textos válidos de 4008 filas totales
+2025-06-14 18:16:02,961 - INFO - Clasificando textos por categorías...
+2025-06-14 18:16:02,967 - INFO - Categoría 'amor': 92 textos
+2025-06-14 18:16:02,967 - INFO - Categoría 'motivacional': 31 textos
+2025-06-14 18:16:02,967 - INFO - Categoría 'humor': 1 textos
+2025-06-14 18:16:02,967 - INFO - Categoría 'vida': 61 textos
+2025-06-14 18:16:02,967 - INFO - Categoría 'crítica_social': 28 textos
+2025-06-14 18:16:02,967 - INFO - Categoría 'autoestima': 25 textos
+2025-06-14 18:16:02,967 - INFO - Categoría 'sueño': 61 textos
+2025-06-14 18:16:02,967 - INFO - Categoría 'otros': 701 textos
+2025-06-14 18:16:40,248 - INFO - Cargando datos desde texto_extraido.csv...
+2025-06-14 18:16:40,348 - INFO - Datos cargados: 1000 textos válidos de 4008 filas totales
+2025-06-14 18:16:40,348 - INFO - Clasificando textos por categorías...
+2025-06-14 18:16:40,354 - INFO - Categoría 'amor': 92 textos
+2025-06-14 18:16:40,354 - INFO - Categoría 'motivacional': 31 textos
+2025-06-14 18:16:40,354 - INFO - Categoría 'humor': 1 textos
+2025-06-14 18:16:40,354 - INFO - Categoría 'vida': 61 textos
+2025-06-14 18:16:40,354 - INFO - Categoría 'crítica_social': 28 textos
+2025-06-14 18:16:40,354 - INFO - Categoría 'autoestima': 25 textos
+2025-06-14 18:16:40,354 - INFO - Categoría 'sueño': 61 textos
+2025-06-14 18:16:40,354 - INFO - Categoría 'otros': 701 textos
+2025-06-14 18:16:40,410 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.5.0.2:5001
+2025-06-14 18:16:40,411 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 18:16:40,577 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 18:16:41,668 - INFO - Cargando datos desde texto_extraido.csv...
+2025-06-14 18:16:41,723 - INFO - Datos cargados: 1000 textos válidos de 4008 filas totales
+2025-06-14 18:16:41,723 - INFO - Clasificando textos por categorías...
+2025-06-14 18:16:41,729 - INFO - Categoría 'amor': 92 textos
+2025-06-14 18:16:41,729 - INFO - Categoría 'motivacional': 31 textos
+2025-06-14 18:16:41,729 - INFO - Categoría 'humor': 1 textos
+2025-06-14 18:16:41,729 - INFO - Categoría 'vida': 61 textos
+2025-06-14 18:16:41,730 - INFO - Categoría 'crítica_social': 28 textos
+2025-06-14 18:16:41,730 - INFO - Categoría 'autoestima': 25 textos
+2025-06-14 18:16:41,730 - INFO - Categoría 'sueño': 61 textos
+2025-06-14 18:16:41,730 - INFO - Categoría 'otros': 701 textos
+2025-06-14 18:16:41,743 - WARNING -  * Debugger is active!
+2025-06-14 18:16:41,926 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 18:17:08,172 - INFO - 127.0.0.1 - - [14/Jun/2025 18:17:08] "GET / HTTP/1.1" 200 -
+2025-06-14 18:17:08,177 - INFO - 127.0.0.1 - - [14/Jun/2025 18:17:08] "GET / HTTP/1.1" 200 -
+2025-06-14 18:17:08,216 - INFO - 127.0.0.1 - - [14/Jun/2025 18:17:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 18:17:08,216 - INFO - 127.0.0.1 - - [14/Jun/2025 18:17:08] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 18:17:08,569 - INFO - 127.0.0.1 - - [14/Jun/2025 18:17:08] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 18:18:23,084 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 18:18:23,099 - INFO - 127.0.0.1 - - [14/Jun/2025 18:18:23] "POST /generar HTTP/1.1" 200 -
+2025-06-14 18:19:04,254 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 18:19:04,257 - INFO - 127.0.0.1 - - [14/Jun/2025 18:19:04] "POST /generar HTTP/1.1" 200 -
+2025-06-14 18:29:56,171 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 18:30:00,707 - INFO - Textos guardados en textos_generados/lote_1.txt
+2025-06-14 18:30:00,708 - INFO - 127.0.0.1 - - [14/Jun/2025 18:30:00] "POST /generar-lote HTTP/1.1" 200 -
+2025-06-14 18:43:04,622 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 18:43:04,646 - INFO - 127.0.0.1 - - [14/Jun/2025 18:43:04] "POST /generar HTTP/1.1" 200 -
+2025-06-14 18:48:09,957 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/clasificador_textos_ai.py', reloading
+2025-06-14 18:48:09,961 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/clasificador_textos_ai.py', reloading
+2025-06-14 18:48:09,974 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/clasificador_textos_ai.py', reloading
+2025-06-14 18:48:09,991 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/clasificador_textos_ai.py', reloading
+2025-06-14 18:48:10,153 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/clasificador_textos_ai.py', reloading
+2025-06-14 18:48:10,290 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/clasificador_textos_ai.py', reloading
+2025-06-14 18:48:10,948 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 18:48:15,054 - INFO - Cargando datos desde texto_extraido.csv...
+2025-06-14 18:48:15,194 - INFO - Datos cargados: 1000 textos válidos de 4008 filas totales
+2025-06-14 18:48:15,194 - INFO - Clasificando textos por categorías...
+2025-06-14 18:48:15,204 - INFO - Categoría 'amor': 92 textos
+2025-06-14 18:48:15,204 - INFO - Categoría 'motivacional': 31 textos
+2025-06-14 18:48:15,204 - INFO - Categoría 'humor': 1 textos
+2025-06-14 18:48:15,204 - INFO - Categoría 'vida': 61 textos
+2025-06-14 18:48:15,204 - INFO - Categoría 'crítica_social': 28 textos
+2025-06-14 18:48:15,204 - INFO - Categoría 'autoestima': 25 textos
+2025-06-14 18:48:15,204 - INFO - Categoría 'sueño': 61 textos
+2025-06-14 18:48:15,204 - INFO - Categoría 'otros': 701 textos
+2025-06-14 18:48:15,593 - WARNING -  * Debugger is active!
+2025-06-14 18:48:15,707 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 18:48:28,367 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/clasificador_textos_ai.py', reloading
+2025-06-14 18:48:28,978 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 18:48:30,656 - INFO - Cargando datos desde texto_extraido.csv...
+2025-06-14 18:48:30,760 - INFO - Datos cargados: 1000 textos válidos de 4008 filas totales
+2025-06-14 18:48:30,760 - INFO - Clasificando textos por categorías...
+2025-06-14 18:48:30,766 - INFO - Categoría 'amor': 92 textos
+2025-06-14 18:48:30,766 - INFO - Categoría 'motivacional': 31 textos
+2025-06-14 18:48:30,766 - INFO - Categoría 'humor': 1 textos
+2025-06-14 18:48:30,766 - INFO - Categoría 'vida': 61 textos
+2025-06-14 18:48:30,766 - INFO - Categoría 'crítica_social': 28 textos
+2025-06-14 18:48:30,766 - INFO - Categoría 'autoestima': 25 textos
+2025-06-14 18:48:30,766 - INFO - Categoría 'sueño': 61 textos
+2025-06-14 18:48:30,766 - INFO - Categoría 'otros': 701 textos
+2025-06-14 18:48:30,782 - WARNING -  * Debugger is active!
+2025-06-14 18:48:30,813 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:03:15,999 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/generador_textos.py', reloading
+2025-06-14 19:03:16,716 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:03:19,567 - INFO - Cargando datos desde texto_extraido.csv...
+2025-06-14 19:03:19,866 - INFO - Datos cargados: 1000 textos válidos de 4007 filas totales
+2025-06-14 19:03:19,867 - INFO - Textos con categoría asignada: 0
+2025-06-14 19:03:19,867 - INFO - Clasificando textos por categorías...
+2025-06-14 19:03:19,873 - INFO - Categoría 'amor': 91 textos
+2025-06-14 19:03:19,874 - INFO - Categoría 'motivacional': 31 textos
+2025-06-14 19:03:19,874 - INFO - Categoría 'humor': 1 textos
+2025-06-14 19:03:19,874 - INFO - Categoría 'vida': 61 textos
+2025-06-14 19:03:19,874 - INFO - Categoría 'crítica_social': 28 textos
+2025-06-14 19:03:19,874 - INFO - Categoría 'autoestima': 25 textos
+2025-06-14 19:03:19,874 - INFO - Categoría 'sueño': 61 textos
+2025-06-14 19:03:19,874 - INFO - Categoría 'otros': 702 textos
+2025-06-14 19:03:19,889 - WARNING -  * Debugger is active!
+2025-06-14 19:03:19,926 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:03:20,004 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/generador_textos.py', reloading
+2025-06-14 19:03:21,116 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:03:22,300 - INFO - Cargando datos desde texto_extraido.csv...
+2025-06-14 19:03:22,464 - INFO - Datos cargados: 1000 textos válidos de 4007 filas totales
+2025-06-14 19:03:22,464 - INFO - Textos con categoría asignada: 0
+2025-06-14 19:03:22,464 - INFO - Clasificando textos por categorías...
+2025-06-14 19:03:22,470 - INFO - Categoría 'amor': 91 textos
+2025-06-14 19:03:22,470 - INFO - Categoría 'motivacional': 31 textos
+2025-06-14 19:03:22,470 - INFO - Categoría 'humor': 1 textos
+2025-06-14 19:03:22,470 - INFO - Categoría 'vida': 61 textos
+2025-06-14 19:03:22,470 - INFO - Categoría 'crítica_social': 28 textos
+2025-06-14 19:03:22,470 - INFO - Categoría 'autoestima': 25 textos
+2025-06-14 19:03:22,470 - INFO - Categoría 'sueño': 61 textos
+2025-06-14 19:03:22,471 - INFO - Categoría 'otros': 702 textos
+2025-06-14 19:03:22,482 - WARNING -  * Debugger is active!
+2025-06-14 19:03:22,516 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:10:34,450 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:10:35,042 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:10:36,897 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:10:37,080 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:10:37,080 - INFO - Textos con categoría asignada: 1486
+2025-06-14 19:10:37,081 - INFO - Clasificando textos por categorías...
+2025-06-14 19:10:37,081 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:10:37,081 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:10:37,081 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:10:37,081 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:10:37,081 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:10:37,081 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:10:37,081 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:10:37,081 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:10:37,081 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:10:37,082 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:10:37,082 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:10:37,082 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:10:37,098 - WARNING -  * Debugger is active!
+2025-06-14 19:10:37,134 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:10:38,039 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:10:38,302 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:10:39,472 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:10:39,646 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:10:39,646 - INFO - Textos con categoría asignada: 1486
+2025-06-14 19:10:39,646 - INFO - Clasificando textos por categorías...
+2025-06-14 19:10:39,646 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:10:39,646 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:10:39,646 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:10:39,646 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:10:39,646 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:10:39,646 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:10:39,647 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:10:39,647 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:10:39,647 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:10:39,647 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:10:39,647 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:10:39,647 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:10:39,663 - WARNING -  * Debugger is active!
+2025-06-14 19:10:39,699 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:18:14,563 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:18:14,734 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:18:14,734 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:18:14,734 - INFO - Clasificando textos por categorías...
+2025-06-14 19:18:14,734 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:18:14,734 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:18:14,735 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:18:14,735 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:18:14,735 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:18:14,735 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:18:14,735 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:18:14,735 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:18:14,735 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:18:14,735 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:18:14,735 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:18:14,735 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:18:43,022 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:18:43,794 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:18:45,269 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:18:45,438 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:18:45,438 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:18:45,438 - INFO - Clasificando textos por categorías...
+2025-06-14 19:18:45,439 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:18:45,439 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:18:45,439 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:18:45,439 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:18:45,439 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:18:45,439 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:18:45,439 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:18:45,439 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:18:45,439 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:18:45,439 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:18:45,439 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:18:45,439 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:18:45,454 - WARNING -  * Debugger is active!
+2025-06-14 19:18:45,491 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:18:47,438 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:18:47,662 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:18:48,828 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:18:49,000 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:18:49,000 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:18:49,000 - INFO - Clasificando textos por categorías...
+2025-06-14 19:18:49,000 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:18:49,000 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:18:49,000 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:18:49,000 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:18:49,000 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:18:49,001 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:18:49,001 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:18:49,001 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:18:49,001 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:18:49,001 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:18:49,001 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:18:49,001 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:18:49,014 - WARNING -  * Debugger is active!
+2025-06-14 19:18:49,045 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:19:04,302 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:19:04,313 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:19:05,397 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:19:07,047 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:19:07,221 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:19:07,222 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:19:07,222 - INFO - Clasificando textos por categorías...
+2025-06-14 19:19:07,222 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:19:07,222 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:19:07,222 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:19:07,222 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:19:07,222 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:19:07,222 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:19:07,222 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:19:07,222 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:19:07,222 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:19:07,223 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:19:07,223 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:19:07,223 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:19:07,240 - WARNING -  * Debugger is active!
+2025-06-14 19:19:07,273 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:19:08,249 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:19:08,460 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:19:09,664 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:19:09,841 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:19:09,842 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:19:09,842 - INFO - Clasificando textos por categorías...
+2025-06-14 19:19:09,842 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:19:09,842 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:19:09,842 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:19:09,842 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:19:09,842 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:19:09,842 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:19:09,842 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:19:09,842 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:19:09,842 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:19:09,842 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:19:09,842 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:19:09,842 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:19:09,856 - WARNING -  * Debugger is active!
+2025-06-14 19:19:09,887 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:21:24,085 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:21:24,261 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:21:24,261 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:21:24,261 - INFO - Clasificando textos por categorías...
+2025-06-14 19:21:24,261 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:21:24,261 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:21:24,261 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:21:24,261 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:21:24,261 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:21:24,261 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:21:24,261 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:21:24,261 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:21:24,261 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:21:24,261 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:21:24,261 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:21:24,261 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:21:24,310 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 19:21:24,310 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 19:21:24,321 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:21:25,556 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:21:25,729 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:21:25,729 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:21:25,729 - INFO - Clasificando textos por categorías...
+2025-06-14 19:21:25,730 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:21:25,730 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:21:25,730 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:21:25,730 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:21:25,730 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:21:25,730 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:21:25,730 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:21:25,730 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:21:25,730 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:21:25,730 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:21:25,730 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:21:25,730 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:21:25,744 - WARNING -  * Debugger is active!
+2025-06-14 19:21:25,777 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:21:54,513 - INFO - 127.0.0.1 - - [14/Jun/2025 19:21:54] "GET / HTTP/1.1" 200 -
+2025-06-14 19:21:54,536 - INFO - 127.0.0.1 - - [14/Jun/2025 19:21:54] "GET / HTTP/1.1" 200 -
+2025-06-14 19:21:54,589 - INFO - 127.0.0.1 - - [14/Jun/2025 19:21:54] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 19:21:54,589 - INFO - 127.0.0.1 - - [14/Jun/2025 19:21:54] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 19:21:54,793 - INFO - 127.0.0.1 - - [14/Jun/2025 19:21:54] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 19:23:22,935 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:23:22,935 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:23:23,372 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:23:23,580 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:23:25,214 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:23:25,217 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:23:25,404 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:23:25,404 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:23:25,404 - INFO - Clasificando textos por categorías...
+2025-06-14 19:23:25,404 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:23:25,404 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:23:25,405 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:23:25,405 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:23:25,405 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:23:25,405 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:23:25,405 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:23:25,405 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:23:25,405 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:23:25,405 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:23:25,405 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:23:25,405 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:23:25,407 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:23:25,407 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:23:25,407 - INFO - Clasificando textos por categorías...
+2025-06-14 19:23:25,409 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:23:25,410 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:23:25,410 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:23:25,410 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:23:25,410 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:23:25,410 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:23:25,410 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:23:25,410 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:23:25,410 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:23:25,410 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:23:25,410 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:23:25,410 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:23:25,424 - WARNING -  * Debugger is active!
+2025-06-14 19:23:25,428 - WARNING -  * Debugger is active!
+2025-06-14 19:23:25,457 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:23:25,457 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:23:30,136 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:23:30,136 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:23:30,747 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:23:30,747 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:23:31,959 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:23:31,960 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:23:32,130 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:23:32,130 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:23:32,131 - INFO - Clasificando textos por categorías...
+2025-06-14 19:23:32,131 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:23:32,131 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:23:32,131 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:23:32,131 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:23:32,131 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:23:32,131 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:23:32,131 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:23:32,131 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:23:32,131 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:23:32,131 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:23:32,131 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:23:32,131 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:23:32,134 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:23:32,134 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:23:32,134 - INFO - Clasificando textos por categorías...
+2025-06-14 19:23:32,134 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:23:32,134 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:23:32,134 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:23:32,134 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:23:32,134 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:23:32,134 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:23:32,134 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:23:32,134 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:23:32,134 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:23:32,134 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:23:32,134 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:23:32,134 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:23:32,143 - WARNING -  * Debugger is active!
+2025-06-14 19:23:32,150 - WARNING -  * Debugger is active!
+2025-06-14 19:23:32,175 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:23:32,179 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:25:25,405 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:25:25,603 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:25:25,603 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:25:25,603 - INFO - Clasificando textos por categorías...
+2025-06-14 19:25:25,603 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:25:25,603 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:25:25,603 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:25:25,603 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:25:25,603 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:25:25,603 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:25:25,603 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:25:25,603 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:25:25,603 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:25:25,603 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:25:25,603 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:25:25,604 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:25:25,667 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 19:25:25,667 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 19:25:25,679 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:25:26,924 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:25:27,095 - INFO - Datos cargados: 1000 textos válidos de 3729 filas totales
+2025-06-14 19:25:27,095 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:25:27,095 - INFO - Clasificando textos por categorías...
+2025-06-14 19:25:27,095 - INFO - Categoría 'minimalista': 2 textos
+2025-06-14 19:25:27,095 - INFO - Categoría 'vida_cotidiana': 62 textos
+2025-06-14 19:25:27,095 - INFO - Categoría 'anuncio_evento': 52 textos
+2025-06-14 19:25:27,095 - INFO - Categoría 'reflexion_filosofica': 78 textos
+2025-06-14 19:25:27,095 - INFO - Categoría 'amor_relaciones': 72 textos
+2025-06-14 19:25:27,095 - INFO - Categoría 'humor_entretenimiento': 333 textos
+2025-06-14 19:25:27,095 - INFO - Categoría 'motivacional_superacion': 228 textos
+2025-06-14 19:25:27,095 - INFO - Categoría 'critica_social': 38 textos
+2025-06-14 19:25:27,095 - INFO - Categoría 'autoestima_autoayuda': 49 textos
+2025-06-14 19:25:27,095 - INFO - Categoría 'otro': 80 textos
+2025-06-14 19:25:27,095 - INFO - Categoría 'cita_literaria': 6 textos
+2025-06-14 19:25:27,095 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:25:27,111 - WARNING -  * Debugger is active!
+2025-06-14 19:25:27,147 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:25:38,042 - INFO - 127.0.0.1 - - [14/Jun/2025 19:25:38] "GET / HTTP/1.1" 200 -
+2025-06-14 19:25:38,069 - INFO - 127.0.0.1 - - [14/Jun/2025 19:25:38] "GET / HTTP/1.1" 200 -
+2025-06-14 19:25:38,149 - INFO - 127.0.0.1 - - [14/Jun/2025 19:25:38] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 19:25:38,150 - INFO - 127.0.0.1 - - [14/Jun/2025 19:25:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 19:25:38,300 - INFO - 127.0.0.1 - - [14/Jun/2025 19:25:38] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 19:25:45,463 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:25:45,597 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 19:25:45,597 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:25:45,597 - INFO - Clasificando textos por categorías...
+2025-06-14 19:25:45,598 - INFO - Categoría 'minimalista': 8 textos
+2025-06-14 19:25:45,598 - INFO - Categoría 'vida_cotidiana': 183 textos
+2025-06-14 19:25:45,598 - INFO - Categoría 'anuncio_evento': 144 textos
+2025-06-14 19:25:45,598 - INFO - Categoría 'reflexion_filosofica': 257 textos
+2025-06-14 19:25:45,598 - INFO - Categoría 'amor_relaciones': 255 textos
+2025-06-14 19:25:45,598 - INFO - Categoría 'humor_entretenimiento': 1033 textos
+2025-06-14 19:25:45,598 - INFO - Categoría 'motivacional_superacion': 736 textos
+2025-06-14 19:25:45,598 - INFO - Categoría 'critica_social': 109 textos
+2025-06-14 19:25:45,598 - INFO - Categoría 'autoestima_autoayuda': 204 textos
+2025-06-14 19:25:45,598 - INFO - Categoría 'otro': 226 textos
+2025-06-14 19:25:45,598 - INFO - Categoría 'cita_literaria': 21 textos
+2025-06-14 19:25:45,598 - INFO - Categoría 'sin_categoria': 553 textos
+2025-06-14 19:25:45,599 - INFO - 127.0.0.1 - - [14/Jun/2025 19:25:45] "POST /cargar-mas-textos HTTP/1.1" 200 -
+2025-06-14 19:25:45,609 - INFO - 127.0.0.1 - - [14/Jun/2025 19:25:45] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 19:26:27,369 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:26:27,746 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:26:29,476 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:26:29,650 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 19:26:29,650 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:26:29,650 - INFO - Clasificando textos por categorías...
+2025-06-14 19:26:29,651 - INFO - Categoría 'cita_literaria': 21 textos
+2025-06-14 19:26:29,651 - INFO - Categoría 'motivacional_superacion': 736 textos
+2025-06-14 19:26:29,651 - INFO - Categoría 'minimalista': 8 textos
+2025-06-14 19:26:29,651 - INFO - Categoría 'autoestima_autoayuda': 204 textos
+2025-06-14 19:26:29,651 - INFO - Categoría 'anuncio_evento': 144 textos
+2025-06-14 19:26:29,651 - INFO - Categoría 'humor_entretenimiento': 1033 textos
+2025-06-14 19:26:29,651 - INFO - Categoría 'critica_social': 109 textos
+2025-06-14 19:26:29,651 - INFO - Categoría 'otro': 226 textos
+2025-06-14 19:26:29,651 - INFO - Categoría 'reflexion_filosofica': 257 textos
+2025-06-14 19:26:29,651 - INFO - Categoría 'vida_cotidiana': 183 textos
+2025-06-14 19:26:29,651 - INFO - Categoría 'amor_relaciones': 255 textos
+2025-06-14 19:26:29,651 - INFO - Categoría 'sin_categoria': 553 textos
+2025-06-14 19:26:29,667 - WARNING -  * Debugger is active!
+2025-06-14 19:26:29,702 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:26:34,617 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:26:34,894 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:26:36,358 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:26:36,539 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 19:26:36,539 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:26:36,539 - INFO - Clasificando textos por categorías...
+2025-06-14 19:26:36,540 - INFO - Categoría 'reflexion_filosofica': 257 textos
+2025-06-14 19:26:36,540 - INFO - Categoría 'cita_literaria': 21 textos
+2025-06-14 19:26:36,540 - INFO - Categoría 'motivacional_superacion': 736 textos
+2025-06-14 19:26:36,540 - INFO - Categoría 'anuncio_evento': 144 textos
+2025-06-14 19:26:36,540 - INFO - Categoría 'autoestima_autoayuda': 204 textos
+2025-06-14 19:26:36,540 - INFO - Categoría 'amor_relaciones': 255 textos
+2025-06-14 19:26:36,540 - INFO - Categoría 'otro': 226 textos
+2025-06-14 19:26:36,540 - INFO - Categoría 'humor_entretenimiento': 1033 textos
+2025-06-14 19:26:36,540 - INFO - Categoría 'vida_cotidiana': 183 textos
+2025-06-14 19:26:36,540 - INFO - Categoría 'critica_social': 109 textos
+2025-06-14 19:26:36,540 - INFO - Categoría 'minimalista': 8 textos
+2025-06-14 19:26:36,540 - INFO - Categoría 'sin_categoria': 553 textos
+2025-06-14 19:26:36,555 - WARNING -  * Debugger is active!
+2025-06-14 19:26:36,585 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:27:51,414 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:27:51,619 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 19:27:51,619 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:27:51,619 - INFO - Clasificando textos por categorías...
+2025-06-14 19:27:51,620 - INFO - Categoría 'cita_literaria': 21 textos
+2025-06-14 19:27:51,620 - INFO - Categoría 'minimalista': 8 textos
+2025-06-14 19:27:51,620 - INFO - Categoría 'reflexion_filosofica': 257 textos
+2025-06-14 19:27:51,620 - INFO - Categoría 'amor_relaciones': 255 textos
+2025-06-14 19:27:51,620 - INFO - Categoría 'critica_social': 109 textos
+2025-06-14 19:27:51,620 - INFO - Categoría 'vida_cotidiana': 183 textos
+2025-06-14 19:27:51,620 - INFO - Categoría 'anuncio_evento': 144 textos
+2025-06-14 19:27:51,620 - INFO - Categoría 'otro': 226 textos
+2025-06-14 19:27:51,620 - INFO - Categoría 'autoestima_autoayuda': 204 textos
+2025-06-14 19:27:51,620 - INFO - Categoría 'motivacional_superacion': 736 textos
+2025-06-14 19:27:51,620 - INFO - Categoría 'humor_entretenimiento': 1033 textos
+2025-06-14 19:27:51,620 - INFO - Categoría 'sin_categoria': 553 textos
+2025-06-14 19:27:51,683 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 19:27:51,683 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 19:27:51,696 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:27:52,825 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:27:52,991 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 19:27:52,992 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:27:52,992 - INFO - Clasificando textos por categorías...
+2025-06-14 19:27:52,992 - INFO - Categoría 'amor_relaciones': 255 textos
+2025-06-14 19:27:52,992 - INFO - Categoría 'motivacional_superacion': 736 textos
+2025-06-14 19:27:52,992 - INFO - Categoría 'minimalista': 8 textos
+2025-06-14 19:27:52,992 - INFO - Categoría 'humor_entretenimiento': 1033 textos
+2025-06-14 19:27:52,992 - INFO - Categoría 'critica_social': 109 textos
+2025-06-14 19:27:52,992 - INFO - Categoría 'cita_literaria': 21 textos
+2025-06-14 19:27:52,992 - INFO - Categoría 'vida_cotidiana': 183 textos
+2025-06-14 19:27:52,993 - INFO - Categoría 'anuncio_evento': 144 textos
+2025-06-14 19:27:52,993 - INFO - Categoría 'reflexion_filosofica': 257 textos
+2025-06-14 19:27:52,993 - INFO - Categoría 'autoestima_autoayuda': 204 textos
+2025-06-14 19:27:52,993 - INFO - Categoría 'otro': 226 textos
+2025-06-14 19:27:52,993 - INFO - Categoría 'sin_categoria': 553 textos
+2025-06-14 19:27:53,004 - WARNING -  * Debugger is active!
+2025-06-14 19:27:53,037 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:28:35,698 - INFO - 127.0.0.1 - - [14/Jun/2025 19:28:35] "GET / HTTP/1.1" 200 -
+2025-06-14 19:28:35,717 - INFO - 127.0.0.1 - - [14/Jun/2025 19:28:35] "GET / HTTP/1.1" 200 -
+2025-06-14 19:28:35,766 - INFO - 127.0.0.1 - - [14/Jun/2025 19:28:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 19:28:35,766 - INFO - 127.0.0.1 - - [14/Jun/2025 19:28:35] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 19:28:35,967 - INFO - 127.0.0.1 - - [14/Jun/2025 19:28:35] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 19:30:46,017 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/clasificador_textos_ai.py', reloading
+2025-06-14 19:30:47,134 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:30:48,980 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:30:49,200 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 19:30:49,200 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:30:49,200 - INFO - Clasificando textos por categorías...
+2025-06-14 19:30:49,201 - INFO - Categoría 'minimalista': 8 textos
+2025-06-14 19:30:49,201 - INFO - Categoría 'humor_entretenimiento': 1033 textos
+2025-06-14 19:30:49,201 - INFO - Categoría 'autoestima_autoayuda': 204 textos
+2025-06-14 19:30:49,201 - INFO - Categoría 'critica_social': 109 textos
+2025-06-14 19:30:49,201 - INFO - Categoría 'vida_cotidiana': 183 textos
+2025-06-14 19:30:49,201 - INFO - Categoría 'reflexion_filosofica': 257 textos
+2025-06-14 19:30:49,201 - INFO - Categoría 'cita_literaria': 21 textos
+2025-06-14 19:30:49,201 - INFO - Categoría 'otro': 226 textos
+2025-06-14 19:30:49,201 - INFO - Categoría 'motivacional_superacion': 736 textos
+2025-06-14 19:30:49,201 - INFO - Categoría 'amor_relaciones': 255 textos
+2025-06-14 19:30:49,201 - INFO - Categoría 'anuncio_evento': 144 textos
+2025-06-14 19:30:49,201 - INFO - Categoría 'sin_categoria': 553 textos
+2025-06-14 19:30:49,216 - WARNING -  * Debugger is active!
+2025-06-14 19:30:49,254 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:30:50,417 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/clasificador_textos_ai.py', reloading
+2025-06-14 19:30:51,465 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:30:52,619 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:30:52,789 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 19:30:52,789 - INFO - Textos con categoría asignada: 1901
+2025-06-14 19:30:52,789 - INFO - Clasificando textos por categorías...
+2025-06-14 19:30:52,790 - INFO - Categoría 'amor_relaciones': 255 textos
+2025-06-14 19:30:52,790 - INFO - Categoría 'minimalista': 8 textos
+2025-06-14 19:30:52,790 - INFO - Categoría 'cita_literaria': 21 textos
+2025-06-14 19:30:52,790 - INFO - Categoría 'humor_entretenimiento': 1033 textos
+2025-06-14 19:30:52,790 - INFO - Categoría 'otro': 226 textos
+2025-06-14 19:30:52,790 - INFO - Categoría 'motivacional_superacion': 736 textos
+2025-06-14 19:30:52,790 - INFO - Categoría 'critica_social': 109 textos
+2025-06-14 19:30:52,790 - INFO - Categoría 'vida_cotidiana': 183 textos
+2025-06-14 19:30:52,790 - INFO - Categoría 'autoestima_autoayuda': 204 textos
+2025-06-14 19:30:52,790 - INFO - Categoría 'anuncio_evento': 144 textos
+2025-06-14 19:30:52,790 - INFO - Categoría 'reflexion_filosofica': 257 textos
+2025-06-14 19:30:52,790 - INFO - Categoría 'sin_categoria': 553 textos
+2025-06-14 19:30:52,801 - WARNING -  * Debugger is active!
+2025-06-14 19:30:52,835 - INFO -  * Debugger PIN: 397-808-319
+2025-06-14 19:38:07,975 - INFO -  * Detected change in '/Users/ebds/Desktop/proyecto mauge/app.py', reloading
+2025-06-14 19:38:08,560 - INFO -  * Restarting with watchdog (fsevents)
+2025-06-14 19:38:10,394 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:38:10,574 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 19:38:10,574 - INFO - Textos con categoría asignada: 2383
+2025-06-14 19:38:10,574 - INFO - Clasificando textos por categorías...
+2025-06-14 19:38:10,574 - INFO - Categoría 'minimalista': 12 textos
+2025-06-14 19:38:10,575 - INFO - Categoría 'humor_entretenimiento': 1157 textos
+2025-06-14 19:38:10,575 - INFO - Categoría 'amor_relaciones': 305 textos
+2025-06-14 19:38:10,575 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 19:38:10,575 - INFO - Categoría 'autoestima_autoayuda': 233 textos
+2025-06-14 19:38:10,575 - INFO - Categoría 'otro': 286 textos
+2025-06-14 19:38:10,575 - INFO - Categoría 'critica_social': 133 textos
+2025-06-14 19:38:10,575 - INFO - Categoría 'motivacional_superacion': 812 textos
+2025-06-14 19:38:10,575 - INFO - Categoría 'vida_cotidiana': 203 textos
+2025-06-14 19:38:10,575 - INFO - Categoría 'anuncio_evento': 222 textos
+2025-06-14 19:38:10,575 - INFO - Categoría 'reflexion_filosofica': 299 textos
+2025-06-14 19:38:10,575 - INFO - Categoría 'sin_categoria': 44 textos
+2025-06-14 19:38:52,913 - INFO - 127.0.0.1 - - [14/Jun/2025 19:38:52] "GET / HTTP/1.1" 200 -
+2025-06-14 19:38:52,940 - INFO - 127.0.0.1 - - [14/Jun/2025 19:38:52] "GET / HTTP/1.1" 200 -
+2025-06-14 19:38:52,988 - INFO - 127.0.0.1 - - [14/Jun/2025 19:38:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 19:38:52,988 - INFO - 127.0.0.1 - - [14/Jun/2025 19:38:52] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 19:38:53,141 - INFO - 127.0.0.1 - - [14/Jun/2025 19:38:53] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 19:38:59,819 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 19:38:59,950 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 19:38:59,953 - INFO - Textos con categoría asignada: 2427
+2025-06-14 19:38:59,953 - INFO - Clasificando textos por categorías...
+2025-06-14 19:38:59,954 - INFO - Categoría 'minimalista': 14 textos
+2025-06-14 19:38:59,954 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-14 19:38:59,954 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-14 19:38:59,954 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 19:38:59,954 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-14 19:38:59,954 - INFO - Categoría 'otro': 287 textos
+2025-06-14 19:38:59,954 - INFO - Categoría 'critica_social': 134 textos
+2025-06-14 19:38:59,954 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-14 19:38:59,954 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-14 19:38:59,954 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-14 19:38:59,954 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-14 19:38:59,954 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 19:38:59,955 - INFO - 127.0.0.1 - - [14/Jun/2025 19:38:59] "POST /cargar-mas-textos HTTP/1.1" 200 -
+2025-06-14 19:38:59,963 - INFO - 127.0.0.1 - - [14/Jun/2025 19:38:59] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 19:39:30,669 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 19:39:30,682 - INFO - 127.0.0.1 - - [14/Jun/2025 19:39:30] "POST /generar HTTP/1.1" 200 -
+2025-06-14 20:06:01,909 - INFO - 127.0.0.1 - - [14/Jun/2025 20:06:01] "GET / HTTP/1.1" 200 -
+2025-06-14 20:06:01,942 - INFO - 127.0.0.1 - - [14/Jun/2025 20:06:01] "GET / HTTP/1.1" 200 -
+2025-06-14 20:06:01,999 - INFO - 127.0.0.1 - - [14/Jun/2025 20:06:01] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:06:01,999 - INFO - 127.0.0.1 - - [14/Jun/2025 20:06:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:08:23,036 - INFO - 127.0.0.1 - - [14/Jun/2025 20:08:23] "GET / HTTP/1.1" 200 -
+2025-06-14 20:08:23,075 - INFO - 127.0.0.1 - - [14/Jun/2025 20:08:23] "GET / HTTP/1.1" 200 -
+2025-06-14 20:08:23,141 - INFO - 127.0.0.1 - - [14/Jun/2025 20:08:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:08:23,141 - INFO - 127.0.0.1 - - [14/Jun/2025 20:08:23] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:08:29,708 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 20:08:29,901 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 20:08:29,902 - INFO - Textos con categoría asignada: 2427
+2025-06-14 20:08:29,902 - INFO - Clasificando textos por categorías...
+2025-06-14 20:08:29,902 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 20:08:29,902 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-14 20:08:29,903 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-14 20:08:29,903 - INFO - Categoría 'otro': 287 textos
+2025-06-14 20:08:29,903 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-14 20:08:29,903 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-14 20:08:29,903 - INFO - Categoría 'critica_social': 134 textos
+2025-06-14 20:08:29,903 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-14 20:08:29,903 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-14 20:08:29,903 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-14 20:08:29,903 - INFO - Categoría 'minimalista': 14 textos
+2025-06-14 20:08:29,903 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 20:09:04,060 - INFO - 127.0.0.1 - - [14/Jun/2025 20:09:04] "GET / HTTP/1.1" 200 -
+2025-06-14 20:09:04,081 - INFO - 127.0.0.1 - - [14/Jun/2025 20:09:04] "GET / HTTP/1.1" 200 -
+2025-06-14 20:09:04,096 - INFO - 127.0.0.1 - - [14/Jun/2025 20:09:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:09:04,097 - INFO - 127.0.0.1 - - [14/Jun/2025 20:09:04] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:10:19,449 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 20:10:19,638 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 20:10:19,639 - INFO - Textos con categoría asignada: 2427
+2025-06-14 20:10:19,639 - INFO - Clasificando textos por categorías...
+2025-06-14 20:10:19,639 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-14 20:10:19,639 - INFO - Categoría 'critica_social': 134 textos
+2025-06-14 20:10:19,639 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-14 20:10:19,639 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-14 20:10:19,639 - INFO - Categoría 'otro': 287 textos
+2025-06-14 20:10:19,639 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-14 20:10:19,639 - INFO - Categoría 'minimalista': 14 textos
+2025-06-14 20:10:19,640 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-14 20:10:19,640 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 20:10:19,640 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-14 20:10:19,640 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-14 20:10:19,640 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 20:10:19,664 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 20:10:19,664 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 20:10:25,907 - INFO - 127.0.0.1 - - [14/Jun/2025 20:10:25] "GET / HTTP/1.1" 200 -
+2025-06-14 20:10:25,912 - INFO - 127.0.0.1 - - [14/Jun/2025 20:10:25] "GET / HTTP/1.1" 200 -
+2025-06-14 20:10:25,935 - INFO - 127.0.0.1 - - [14/Jun/2025 20:10:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:10:25,935 - INFO - 127.0.0.1 - - [14/Jun/2025 20:10:25] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:10:26,038 - INFO - 127.0.0.1 - - [14/Jun/2025 20:10:26] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:10:46,282 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 20:10:46,291 - INFO - 127.0.0.1 - - [14/Jun/2025 20:10:46] "POST /generar HTTP/1.1" 200 -
+2025-06-14 20:11:05,144 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 20:11:05,147 - INFO - 127.0.0.1 - - [14/Jun/2025 20:11:05] "POST /generar HTTP/1.1" 200 -
+2025-06-14 20:11:16,587 - INFO - 127.0.0.1 - - [14/Jun/2025 20:11:16] "GET /?categoria=ninguna&estilo=irónico&tema=&temperatura=1&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:11:16,590 - INFO - 127.0.0.1 - - [14/Jun/2025 20:11:16] "GET /?categoria=ninguna&estilo=irónico&tema=&temperatura=1&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:11:16,618 - INFO - 127.0.0.1 - - [14/Jun/2025 20:11:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:11:16,618 - INFO - 127.0.0.1 - - [14/Jun/2025 20:11:16] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:11:16,742 - INFO - 127.0.0.1 - - [14/Jun/2025 20:11:16] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:11:24,088 - INFO - 127.0.0.1 - - [14/Jun/2025 20:11:24] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:11:24,091 - INFO - 127.0.0.1 - - [14/Jun/2025 20:11:24] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:11:24,103 - INFO - 127.0.0.1 - - [14/Jun/2025 20:11:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:11:24,103 - INFO - 127.0.0.1 - - [14/Jun/2025 20:11:24] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:11:24,199 - INFO - 127.0.0.1 - - [14/Jun/2025 20:11:24] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:14:57,138 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 20:14:57,385 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 20:14:57,385 - INFO - Textos con categoría asignada: 2427
+2025-06-14 20:14:57,385 - INFO - Clasificando textos por categorías...
+2025-06-14 20:14:57,386 - INFO - Categoría 'minimalista': 14 textos
+2025-06-14 20:14:57,386 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-14 20:14:57,386 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-14 20:14:57,386 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-14 20:14:57,386 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 20:14:57,386 - INFO - Categoría 'otro': 287 textos
+2025-06-14 20:14:57,386 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-14 20:14:57,386 - INFO - Categoría 'critica_social': 134 textos
+2025-06-14 20:14:57,386 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-14 20:14:57,386 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-14 20:14:57,386 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-14 20:14:57,386 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 20:14:57,398 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 20:14:57,398 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 20:15:24,577 - INFO - 127.0.0.1 - - [14/Jun/2025 20:15:24] "GET /?vscodeBrowserReqId=1749924924548 HTTP/1.1" 200 -
+2025-06-14 20:15:24,602 - INFO - 127.0.0.1 - - [14/Jun/2025 20:15:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:15:24,602 - INFO - 127.0.0.1 - - [14/Jun/2025 20:15:24] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:15:24,698 - INFO - 127.0.0.1 - - [14/Jun/2025 20:15:24] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:16:51,592 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 20:16:51,780 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 20:16:51,781 - INFO - Textos con categoría asignada: 2427
+2025-06-14 20:16:51,781 - INFO - Clasificando textos por categorías...
+2025-06-14 20:16:51,781 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-14 20:16:51,781 - INFO - Categoría 'otro': 287 textos
+2025-06-14 20:16:51,781 - INFO - Categoría 'critica_social': 134 textos
+2025-06-14 20:16:51,781 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-14 20:16:51,781 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-14 20:16:51,782 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 20:16:51,782 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-14 20:16:51,782 - INFO - Categoría 'minimalista': 14 textos
+2025-06-14 20:16:51,782 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-14 20:16:51,782 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-14 20:16:51,782 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-14 20:16:51,782 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 20:16:51,794 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 20:16:51,794 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 20:17:42,114 - INFO - 127.0.0.1 - - [14/Jun/2025 20:17:42] "GET /?vscodeBrowserReqId=1749925062057 HTTP/1.1" 200 -
+2025-06-14 20:17:42,135 - INFO - 127.0.0.1 - - [14/Jun/2025 20:17:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 20:17:42,135 - INFO - 127.0.0.1 - - [14/Jun/2025 20:17:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-14 20:17:42,150 - INFO - 127.0.0.1 - - [14/Jun/2025 20:17:42] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:17:56,290 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 20:17:56,302 - INFO - 127.0.0.1 - - [14/Jun/2025 20:17:56] "POST /generar HTTP/1.1" 200 -
+2025-06-14 20:18:03,891 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 20:18:03,904 - INFO - 127.0.0.1 - - [14/Jun/2025 20:18:03] "POST /generar HTTP/1.1" 200 -
+2025-06-14 20:18:41,698 - INFO - 127.0.0.1 - - [14/Jun/2025 20:18:41] "GET /?categoria=ninguna&estilo=irónico&tema=&temperatura=0.7&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:18:41,718 - INFO - 127.0.0.1 - - [14/Jun/2025 20:18:41] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-14 20:18:41,718 - INFO - 127.0.0.1 - - [14/Jun/2025 20:18:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 20:18:41,739 - INFO - 127.0.0.1 - - [14/Jun/2025 20:18:41] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:19:49,365 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 20:19:49,560 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 20:19:49,560 - INFO - Textos con categoría asignada: 2427
+2025-06-14 20:19:49,560 - INFO - Clasificando textos por categorías...
+2025-06-14 20:19:49,561 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-14 20:19:49,561 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-14 20:19:49,561 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-14 20:19:49,561 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-14 20:19:49,561 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-14 20:19:49,561 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-14 20:19:49,561 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 20:19:49,561 - INFO - Categoría 'critica_social': 134 textos
+2025-06-14 20:19:49,561 - INFO - Categoría 'otro': 287 textos
+2025-06-14 20:19:49,561 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-14 20:19:49,561 - INFO - Categoría 'minimalista': 14 textos
+2025-06-14 20:19:49,561 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 20:19:49,572 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 20:19:49,572 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 20:19:52,399 - INFO - 127.0.0.1 - - [14/Jun/2025 20:19:52] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:19:52,425 - INFO - 127.0.0.1 - - [14/Jun/2025 20:19:52] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:19:52,527 - INFO - 127.0.0.1 - - [14/Jun/2025 20:19:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:19:52,527 - INFO - 127.0.0.1 - - [14/Jun/2025 20:19:52] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:19:52,678 - INFO - 127.0.0.1 - - [14/Jun/2025 20:19:52] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:20:06,055 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 20:20:06,061 - INFO - 127.0.0.1 - - [14/Jun/2025 20:20:06] "POST /generar HTTP/1.1" 200 -
+2025-06-14 20:20:34,471 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 20:20:34,474 - INFO - 127.0.0.1 - - [14/Jun/2025 20:20:34] "POST /generar HTTP/1.1" 200 -
+2025-06-14 20:20:42,330 - INFO - 127.0.0.1 - - [14/Jun/2025 20:20:42] "GET /?categoria=critica_social&estilo=IRÓNICO&tema=&temperatura=0.8&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:20:42,350 - INFO - 127.0.0.1 - - [14/Jun/2025 20:20:42] "GET /?categoria=critica_social&estilo=IRÓNICO&tema=&temperatura=0.8&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:20:42,366 - INFO - 127.0.0.1 - - [14/Jun/2025 20:20:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:20:42,367 - INFO - 127.0.0.1 - - [14/Jun/2025 20:20:42] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:20:42,461 - INFO - 127.0.0.1 - - [14/Jun/2025 20:20:42] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:20:59,603 - INFO - 127.0.0.1 - - [14/Jun/2025 20:20:59] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:20:59,625 - INFO - 127.0.0.1 - - [14/Jun/2025 20:20:59] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:20:59,640 - INFO - 127.0.0.1 - - [14/Jun/2025 20:20:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:20:59,640 - INFO - 127.0.0.1 - - [14/Jun/2025 20:20:59] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:20:59,745 - INFO - 127.0.0.1 - - [14/Jun/2025 20:20:59] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:24:59,916 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 20:25:00,128 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 20:25:00,128 - INFO - Textos con categoría asignada: 2427
+2025-06-14 20:25:00,128 - INFO - Clasificando textos por categorías...
+2025-06-14 20:25:00,129 - INFO - Categoría 'otro': 287 textos
+2025-06-14 20:25:00,129 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-14 20:25:00,129 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-14 20:25:00,129 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-14 20:25:00,129 - INFO - Categoría 'critica_social': 134 textos
+2025-06-14 20:25:00,129 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 20:25:00,129 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-14 20:25:00,129 - INFO - Categoría 'minimalista': 14 textos
+2025-06-14 20:25:00,129 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-14 20:25:00,129 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-14 20:25:00,129 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-14 20:25:00,129 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 20:25:00,172 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 20:25:00,172 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 20:25:04,804 - INFO - 127.0.0.1 - - [14/Jun/2025 20:25:04] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:25:04,832 - INFO - 127.0.0.1 - - [14/Jun/2025 20:25:04] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:25:04,943 - INFO - 127.0.0.1 - - [14/Jun/2025 20:25:04] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:25:04,944 - INFO - 127.0.0.1 - - [14/Jun/2025 20:25:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:25:05,089 - INFO - 127.0.0.1 - - [14/Jun/2025 20:25:05] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:26:40,931 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 20:26:41,118 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 20:26:41,118 - INFO - Textos con categoría asignada: 2427
+2025-06-14 20:26:41,118 - INFO - Clasificando textos por categorías...
+2025-06-14 20:26:41,119 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-14 20:26:41,119 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-14 20:26:41,119 - INFO - Categoría 'otro': 287 textos
+2025-06-14 20:26:41,119 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-14 20:26:41,119 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-14 20:26:41,119 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 20:26:41,119 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-14 20:26:41,119 - INFO - Categoría 'critica_social': 134 textos
+2025-06-14 20:26:41,119 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-14 20:26:41,119 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-14 20:26:41,119 - INFO - Categoría 'minimalista': 14 textos
+2025-06-14 20:26:41,119 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 20:26:41,136 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 20:26:41,136 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 20:27:06,961 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:06] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:27:06,985 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:06] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:27:07,006 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:07] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:27:07,006 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:27:07,120 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:07] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:27:15,669 - WARNING - No hay suficientes textos en la categoría 'minimalista'. Usando textos generales.
+2025-06-14 20:27:19,642 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 20:27:19,651 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:19] "POST /generar HTTP/1.1" 200 -
+2025-06-14 20:27:27,635 - ERROR - Exception on /buscar_similares [POST]
+Traceback (most recent call last):
+  File "/Users/ebds/Desktop/proyecto mauge/app.py", line 172, in buscar_similares
+    logging.info(f"Recibida solicitud de búsqueda de textos similares: {request.json}")
+NameError: name 'logging' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ebds/Desktop/proyecto mauge/venv/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ebds/Desktop/proyecto mauge/venv/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ebds/Desktop/proyecto mauge/venv/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ebds/Desktop/proyecto mauge/venv/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/ebds/Desktop/proyecto mauge/app.py", line 204, in buscar_similares
+    logging.error(f"Error al buscar textos similares: {str(e)}")
+NameError: name 'logging' is not defined
+2025-06-14 20:27:27,645 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:27] "[35m[1mPOST /buscar_similares HTTP/1.1[0m" 500 -
+2025-06-14 20:27:27,973 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:27] "GET /?categoria=minimalista&estilo=&tema=&temperatura=0.7&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:27:27,994 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:27] "GET /?categoria=minimalista&estilo=&tema=&temperatura=0.7&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:27:28,009 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:28] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:27:28,009 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:27:28,111 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:28] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:27:32,344 - ERROR - Exception on /buscar_similares [POST]
+Traceback (most recent call last):
+  File "/Users/ebds/Desktop/proyecto mauge/app.py", line 172, in buscar_similares
+    logging.info(f"Recibida solicitud de búsqueda de textos similares: {request.json}")
+NameError: name 'logging' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ebds/Desktop/proyecto mauge/venv/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ebds/Desktop/proyecto mauge/venv/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ebds/Desktop/proyecto mauge/venv/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/ebds/Desktop/proyecto mauge/venv/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/ebds/Desktop/proyecto mauge/app.py", line 204, in buscar_similares
+    logging.error(f"Error al buscar textos similares: {str(e)}")
+NameError: name 'logging' is not defined
+2025-06-14 20:27:32,345 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:32] "[35m[1mPOST /buscar_similares HTTP/1.1[0m" 500 -
+2025-06-14 20:27:32,667 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:32] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:27:32,684 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:32] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:27:32,696 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:27:32,697 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:32] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:27:32,794 - INFO - 127.0.0.1 - - [14/Jun/2025 20:27:32] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:29:46,832 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 20:29:47,033 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 20:29:47,033 - INFO - Textos con categoría asignada: 2427
+2025-06-14 20:29:47,033 - INFO - Clasificando textos por categorías...
+2025-06-14 20:29:47,034 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-14 20:29:47,034 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-14 20:29:47,034 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-14 20:29:47,034 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-14 20:29:47,034 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-14 20:29:47,034 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-14 20:29:47,034 - INFO - Categoría 'critica_social': 134 textos
+2025-06-14 20:29:47,034 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-14 20:29:47,034 - INFO - Categoría 'otro': 287 textos
+2025-06-14 20:29:47,034 - INFO - Categoría 'minimalista': 14 textos
+2025-06-14 20:29:47,034 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 20:29:47,034 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 20:29:47,046 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 20:29:47,046 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 20:29:52,644 - INFO - 127.0.0.1 - - [14/Jun/2025 20:29:52] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:29:52,666 - INFO - 127.0.0.1 - - [14/Jun/2025 20:29:52] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:29:52,692 - INFO - 127.0.0.1 - - [14/Jun/2025 20:29:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:29:52,692 - INFO - 127.0.0.1 - - [14/Jun/2025 20:29:52] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:29:52,798 - INFO - 127.0.0.1 - - [14/Jun/2025 20:29:52] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:30:43,438 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 20:30:43,449 - INFO - 127.0.0.1 - - [14/Jun/2025 20:30:43] "POST /generar HTTP/1.1" 200 -
+2025-06-14 20:30:59,970 - INFO - Recibida solicitud de búsqueda de textos similares: {'texto': "- IT'S YOUR LIFE  \nDON'T LET ANYONE  \nMAKE IT SMALL.", 'top_n': 5}
+2025-06-14 20:30:59,970 - INFO - Buscando textos similares a: - IT'S YOUR LIFE  
+DON'T LET ANYONE  
+MAKE IT SMALL.
+2025-06-14 20:31:00,165 - INFO - Use pytorch device_name: mps
+2025-06-14 20:31:00,165 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-06-14 20:31:00,303 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:00] "GET /?categoria=motivacional_superacion&estilo=&tema=&temperatura=0.7&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:31:00,330 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:00] "GET /?categoria=motivacional_superacion&estilo=&tema=&temperatura=0.7&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:31:00,345 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:31:00,345 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:00] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:31:00,470 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:00] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:31:18,811 - ERROR - Error al buscar textos similares: 'GeneradorTextos' object has no attribute 'df'
+2025-06-14 20:31:18,817 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:18] "[35m[1mPOST /buscar_similares HTTP/1.1[0m" 500 -
+2025-06-14 20:31:39,218 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:39] "GET /?categoria=motivacional_superacion&estilo=&tema=&temperatura=0.7&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:31:39,243 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:39] "GET /?categoria=motivacional_superacion&estilo=&tema=&temperatura=0.7&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:31:39,261 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:31:39,261 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:39] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:31:39,377 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:39] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:31:45,664 - INFO - Recibida solicitud de búsqueda de textos similares: {'texto': 'hola', 'top_n': 5}
+2025-06-14 20:31:45,664 - INFO - Buscando textos similares a: hola
+2025-06-14 20:31:45,671 - INFO - Use pytorch device_name: mps
+2025-06-14 20:31:45,671 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-06-14 20:31:45,985 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:45] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:31:46,005 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:46] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:31:46,017 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:31:46,018 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:46] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:31:46,117 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:46] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:31:50,139 - ERROR - Error al buscar textos similares: 'GeneradorTextos' object has no attribute 'df'
+2025-06-14 20:31:50,140 - INFO - 127.0.0.1 - - [14/Jun/2025 20:31:50] "[35m[1mPOST /buscar_similares HTTP/1.1[0m" 500 -
+2025-06-14 20:34:15,009 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 20:34:15,196 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 20:34:15,196 - INFO - Textos con categoría asignada: 2427
+2025-06-14 20:34:15,196 - INFO - Clasificando textos por categorías...
+2025-06-14 20:34:15,196 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-14 20:34:15,197 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-14 20:34:15,197 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-14 20:34:15,197 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-14 20:34:15,197 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-14 20:34:15,197 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-14 20:34:15,197 - INFO - Categoría 'minimalista': 14 textos
+2025-06-14 20:34:15,197 - INFO - Categoría 'otro': 287 textos
+2025-06-14 20:34:15,197 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-14 20:34:15,197 - INFO - Categoría 'critica_social': 134 textos
+2025-06-14 20:34:15,197 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 20:34:15,197 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 20:34:15,207 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 20:34:15,207 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 20:34:38,460 - INFO - 127.0.0.1 - - [14/Jun/2025 20:34:38] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:34:38,482 - INFO - 127.0.0.1 - - [14/Jun/2025 20:34:38] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:34:38,505 - INFO - 127.0.0.1 - - [14/Jun/2025 20:34:38] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:34:38,505 - INFO - 127.0.0.1 - - [14/Jun/2025 20:34:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:34:38,614 - INFO - 127.0.0.1 - - [14/Jun/2025 20:34:38] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:34:42,205 - INFO - Recibida solicitud de búsqueda de textos similares: {'texto': 'hola', 'top_n': 5}
+2025-06-14 20:34:42,206 - INFO - Buscando textos similares a: hola
+2025-06-14 20:34:42,238 - INFO - Use pytorch device_name: mps
+2025-06-14 20:34:42,238 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-06-14 20:34:42,530 - INFO - 127.0.0.1 - - [14/Jun/2025 20:34:42] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:34:42,550 - INFO - 127.0.0.1 - - [14/Jun/2025 20:34:42] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:34:42,562 - INFO - 127.0.0.1 - - [14/Jun/2025 20:34:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:34:42,562 - INFO - 127.0.0.1 - - [14/Jun/2025 20:34:42] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:34:42,655 - INFO - 127.0.0.1 - - [14/Jun/2025 20:34:42] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:34:46,198 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 20:34:46,222 - INFO - Datos cargados: 3729 textos
+2025-06-14 20:34:46,222 - INFO - Datos cargados: 3729 textos
+2025-06-14 20:39:00,541 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 20:39:00,747 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 20:39:00,748 - INFO - Textos con categoría asignada: 2427
+2025-06-14 20:39:00,748 - INFO - Clasificando textos por categorías...
+2025-06-14 20:39:00,748 - INFO - Categoría 'otro': 287 textos
+2025-06-14 20:39:00,748 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-14 20:39:00,748 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-14 20:39:00,748 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-14 20:39:00,749 - INFO - Categoría 'minimalista': 14 textos
+2025-06-14 20:39:00,749 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-14 20:39:00,749 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-14 20:39:00,749 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-14 20:39:00,749 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 20:39:00,749 - INFO - Categoría 'critica_social': 134 textos
+2025-06-14 20:39:00,749 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-14 20:39:00,749 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 20:39:00,811 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 20:39:00,811 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 20:41:45,264 - INFO - 127.0.0.1 - - [14/Jun/2025 20:41:45] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:41:45,288 - INFO - 127.0.0.1 - - [14/Jun/2025 20:41:45] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:41:45,341 - INFO - 127.0.0.1 - - [14/Jun/2025 20:41:45] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:41:45,341 - INFO - 127.0.0.1 - - [14/Jun/2025 20:41:45] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:41:45,475 - INFO - 127.0.0.1 - - [14/Jun/2025 20:41:45] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:41:53,364 - INFO - 127.0.0.1 - - [14/Jun/2025 20:41:53] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:41:53,383 - INFO - 127.0.0.1 - - [14/Jun/2025 20:41:53] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:41:53,395 - INFO - 127.0.0.1 - - [14/Jun/2025 20:41:53] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:41:53,396 - INFO - 127.0.0.1 - - [14/Jun/2025 20:41:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:41:53,507 - INFO - 127.0.0.1 - - [14/Jun/2025 20:41:53] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:42:02,894 - INFO - 127.0.0.1 - - [14/Jun/2025 20:42:02] "GET / HTTP/1.1" 200 -
+2025-06-14 20:42:02,919 - INFO - 127.0.0.1 - - [14/Jun/2025 20:42:02] "GET / HTTP/1.1" 200 -
+2025-06-14 20:42:02,944 - INFO - 127.0.0.1 - - [14/Jun/2025 20:42:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:42:02,945 - INFO - 127.0.0.1 - - [14/Jun/2025 20:42:02] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:42:03,229 - INFO - 127.0.0.1 - - [14/Jun/2025 20:42:03] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 20:42:09,645 - INFO - 127.0.0.1 - - [14/Jun/2025 20:42:09] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:42:09,663 - INFO - 127.0.0.1 - - [14/Jun/2025 20:42:09] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 20:42:09,679 - INFO - 127.0.0.1 - - [14/Jun/2025 20:42:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 20:42:09,679 - INFO - 127.0.0.1 - - [14/Jun/2025 20:42:09] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 20:42:09,784 - INFO - 127.0.0.1 - - [14/Jun/2025 20:42:09] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 22:27:04,591 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:04] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:27:04,648 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:04] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:27:04,746 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:04] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 22:27:04,747 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 22:27:04,893 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:04] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 22:27:12,062 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:12] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:27:12,082 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:12] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:27:12,096 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:12] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 22:27:12,096 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:12] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 22:27:12,206 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:12] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 22:27:20,080 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:20] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:27:20,099 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:20] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:27:20,110 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 22:27:20,111 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:20] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 22:27:20,210 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:20] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 22:27:26,630 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:26] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:27:26,654 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:26] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:27:26,667 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 22:27:26,668 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:26] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 22:27:26,768 - INFO - 127.0.0.1 - - [14/Jun/2025 22:27:26] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 22:30:19,641 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 22:30:19,835 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 22:30:19,836 - INFO - Textos con categoría asignada: 2427
+2025-06-14 22:30:19,836 - INFO - Clasificando textos por categorías...
+2025-06-14 22:30:19,836 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-14 22:30:19,837 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-14 22:30:19,837 - INFO - Categoría 'critica_social': 134 textos
+2025-06-14 22:30:19,837 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 22:30:19,837 - INFO - Categoría 'otro': 287 textos
+2025-06-14 22:30:19,837 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-14 22:30:19,837 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-14 22:30:19,837 - INFO - Categoría 'minimalista': 14 textos
+2025-06-14 22:30:19,837 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-14 22:30:19,837 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-14 22:30:19,837 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-14 22:30:19,837 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 22:30:19,877 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 22:30:19,877 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 22:31:10,958 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:10] "GET / HTTP/1.1" 200 -
+2025-06-14 22:31:10,978 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:10] "GET / HTTP/1.1" 200 -
+2025-06-14 22:31:11,010 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 22:31:11,010 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:11] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 22:31:11,188 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:11] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 22:31:29,067 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:29] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:31:29,086 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:29] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:31:29,100 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:29] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 22:31:29,100 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:29] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 22:31:29,208 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:29] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 22:31:48,997 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:48] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:31:49,018 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:49] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:31:49,032 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:49] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 22:31:49,032 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 22:31:49,138 - INFO - 127.0.0.1 - - [14/Jun/2025 22:31:49] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 22:33:11,077 - INFO - 127.0.0.1 - - [14/Jun/2025 22:33:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-14 22:33:26,456 - INFO - 127.0.0.1 - - [14/Jun/2025 22:33:26] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:33:26,475 - INFO - 127.0.0.1 - - [14/Jun/2025 22:33:26] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-3.5-turbo&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:33:26,507 - INFO - 127.0.0.1 - - [14/Jun/2025 22:33:26] "[33mGET /parent_injection.js.map HTTP/1.1[0m" 404 -
+2025-06-14 22:33:26,510 - INFO - 127.0.0.1 - - [14/Jun/2025 22:33:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 22:33:26,510 - INFO - 127.0.0.1 - - [14/Jun/2025 22:33:26] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 22:33:26,632 - INFO - 127.0.0.1 - - [14/Jun/2025 22:33:26] "[33mGET /parent_injection.js.map HTTP/1.1[0m" 404 -
+2025-06-14 22:33:26,635 - INFO - 127.0.0.1 - - [14/Jun/2025 22:33:26] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 22:34:11,296 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 22:34:11,314 - INFO - 127.0.0.1 - - [14/Jun/2025 22:34:11] "POST /generar HTTP/1.1" 200 -
+2025-06-14 22:34:19,235 - INFO - 127.0.0.1 - - [14/Jun/2025 22:34:19] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:34:19,261 - INFO - 127.0.0.1 - - [14/Jun/2025 22:34:19] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:34:19,287 - INFO - 127.0.0.1 - - [14/Jun/2025 22:34:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 22:34:19,288 - INFO - 127.0.0.1 - - [14/Jun/2025 22:34:19] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 22:34:19,401 - INFO - 127.0.0.1 - - [14/Jun/2025 22:34:19] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 22:39:03,357 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 22:39:03,584 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-14 22:39:03,585 - INFO - Textos con categoría asignada: 2427
+2025-06-14 22:39:03,585 - INFO - Clasificando textos por categorías...
+2025-06-14 22:39:03,585 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-14 22:39:03,585 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-14 22:39:03,585 - INFO - Categoría 'minimalista': 14 textos
+2025-06-14 22:39:03,585 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-14 22:39:03,585 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-14 22:39:03,586 - INFO - Categoría 'otro': 287 textos
+2025-06-14 22:39:03,586 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-14 22:39:03,586 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-14 22:39:03,586 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-14 22:39:03,586 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-14 22:39:03,586 - INFO - Categoría 'critica_social': 134 textos
+2025-06-14 22:39:03,586 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-14 22:39:03,629 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.5.0.2:5002
+2025-06-14 22:39:03,629 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 22:39:46,126 - INFO - 127.0.0.1 - - [14/Jun/2025 22:39:46] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:39:46,153 - INFO - 127.0.0.1 - - [14/Jun/2025 22:39:46] "GET /?categoria=ninguna&estilo=&tema=&temperatura=0.7&modelo=gpt-4&cantidad=5 HTTP/1.1" 200 -
+2025-06-14 22:39:46,179 - INFO - 127.0.0.1 - - [14/Jun/2025 22:39:46] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-14 22:39:46,179 - INFO - 127.0.0.1 - - [14/Jun/2025 22:39:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-14 22:39:49,873 - INFO - 127.0.0.1 - - [14/Jun/2025 22:39:49] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-14 22:39:58,918 - INFO - Inicializando buscador de textos similares...
+2025-06-14 22:39:59,080 - INFO - Use pytorch device_name: mps
+2025-06-14 22:39:59,080 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-06-14 22:40:04,424 - ERROR - Error al cargar caché de embeddings: Expecting ',' delimiter: line 197433 column 25 (char 5005921)
+2025-06-14 22:40:04,424 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-14 22:40:04,439 - INFO - Datos cargados: 3729 textos
+2025-06-14 22:40:04,440 - INFO - Precalculando 2427 embeddings de 3729 textos...
+2025-06-14 22:40:04,440 - INFO - Progreso: 0% (0/2427)
+2025-06-14 22:40:06,396 - INFO - Progreso: 1% (32/2427)
+2025-06-14 22:40:06,736 - INFO - Progreso: 2% (64/2427)
+2025-06-14 22:40:06,903 - INFO - Progreso: 3% (96/2427)
+2025-06-14 22:40:07,085 - INFO - Progreso: 5% (128/2427)
+2025-06-14 22:40:07,265 - INFO - Progreso: 6% (160/2427)
+2025-06-14 22:40:07,446 - INFO - Progreso: 7% (192/2427)
+2025-06-14 22:40:07,625 - INFO - Progreso: 9% (224/2427)
+2025-06-14 22:40:07,879 - INFO - Progreso: 10% (256/2427)
+2025-06-14 22:40:08,062 - INFO - Progreso: 11% (288/2427)
+2025-06-14 22:40:08,247 - INFO - Progreso: 13% (320/2427)
+2025-06-14 22:40:08,443 - INFO - Progreso: 14% (352/2427)
+2025-06-14 22:40:08,806 - INFO - Progreso: 15% (384/2427)
+2025-06-14 22:40:09,001 - INFO - Progreso: 17% (416/2427)
+2025-06-14 22:40:09,213 - INFO - Progreso: 18% (448/2427)
+2025-06-14 22:40:09,265 - INFO - Progreso: 19% (480/2427)
+2025-06-14 22:40:09,610 - INFO - Progreso: 21% (512/2427)
+2025-06-14 22:40:09,804 - INFO - Progreso: 22% (544/2427)
+2025-06-14 22:40:09,995 - INFO - Progreso: 23% (576/2427)
+2025-06-14 22:40:10,043 - INFO - Progreso: 25% (608/2427)
+2025-06-14 22:40:10,232 - INFO - Progreso: 26% (640/2427)
+2025-06-14 22:40:10,278 - INFO - Progreso: 27% (672/2427)
+2025-06-14 22:40:10,541 - INFO - Progreso: 29% (704/2427)
+2025-06-14 22:40:10,586 - INFO - Progreso: 30% (736/2427)
+2025-06-14 22:40:10,661 - INFO - Progreso: 31% (768/2427)
+2025-06-14 22:40:10,704 - INFO - Progreso: 32% (800/2427)
+2025-06-14 22:40:11,039 - INFO - Progreso: 34% (832/2427)
+2025-06-14 22:40:11,265 - INFO - Progreso: 35% (864/2427)
+2025-06-14 22:40:11,483 - INFO - Progreso: 36% (896/2427)
+2025-06-14 22:40:11,539 - INFO - Progreso: 38% (928/2427)
+2025-06-14 22:40:11,595 - INFO - Progreso: 39% (960/2427)
+2025-06-14 22:40:11,640 - INFO - Progreso: 40% (992/2427)
+2025-06-14 22:40:11,849 - INFO - Progreso: 42% (1024/2427)
+2025-06-14 22:40:11,897 - INFO - Progreso: 43% (1056/2427)
+2025-06-14 22:40:11,975 - INFO - Progreso: 44% (1088/2427)
+2025-06-14 22:40:12,171 - INFO - Progreso: 46% (1120/2427)
+2025-06-14 22:40:12,391 - INFO - Progreso: 47% (1152/2427)
+2025-06-14 22:40:12,590 - INFO - Progreso: 48% (1184/2427)
+2025-06-14 22:40:12,934 - INFO - Progreso: 50% (1216/2427)
+2025-06-14 22:40:13,147 - INFO - Progreso: 51% (1248/2427)
+2025-06-14 22:40:13,199 - INFO - Progreso: 52% (1280/2427)
+2025-06-14 22:40:13,244 - INFO - Progreso: 54% (1312/2427)
+2025-06-14 22:40:13,460 - INFO - Progreso: 55% (1344/2427)
+2025-06-14 22:40:13,697 - INFO - Progreso: 56% (1376/2427)
+2025-06-14 22:40:13,742 - INFO - Progreso: 58% (1408/2427)
+2025-06-14 22:40:14,056 - INFO - Progreso: 59% (1440/2427)
+2025-06-14 22:40:14,142 - INFO - Progreso: 60% (1472/2427)
+2025-06-14 22:40:14,209 - INFO - Progreso: 61% (1504/2427)
+2025-06-14 22:40:14,313 - INFO - Progreso: 63% (1536/2427)
+2025-06-14 22:40:14,419 - INFO - Progreso: 64% (1568/2427)
+2025-06-14 22:40:14,658 - INFO - Progreso: 65% (1600/2427)
+2025-06-14 22:40:15,418 - INFO - Progreso: 67% (1632/2427)
+2025-06-14 22:40:15,625 - INFO - Progreso: 68% (1664/2427)
+2025-06-14 22:40:15,672 - INFO - Progreso: 69% (1696/2427)
+2025-06-14 22:40:15,883 - INFO - Progreso: 71% (1728/2427)
+2025-06-14 22:40:15,932 - INFO - Progreso: 72% (1760/2427)
+2025-06-14 22:40:16,038 - INFO - Progreso: 73% (1792/2427)
+2025-06-14 22:40:16,144 - INFO - Progreso: 75% (1824/2427)
+2025-06-14 22:40:16,389 - INFO - Progreso: 76% (1856/2427)
+2025-06-14 22:40:16,635 - INFO - Progreso: 77% (1888/2427)
+2025-06-14 22:40:16,680 - INFO - Progreso: 79% (1920/2427)
+2025-06-14 22:40:16,727 - INFO - Progreso: 80% (1952/2427)
+2025-06-14 22:40:16,773 - INFO - Progreso: 81% (1984/2427)
+2025-06-14 22:40:17,056 - INFO - Progreso: 83% (2016/2427)
+2025-06-14 22:40:17,310 - INFO - Progreso: 84% (2048/2427)
+2025-06-14 22:40:17,541 - INFO - Progreso: 85% (2080/2427)
+2025-06-14 22:40:17,584 - INFO - Progreso: 87% (2112/2427)
+2025-06-14 22:40:17,823 - INFO - Progreso: 88% (2144/2427)
+2025-06-14 22:40:18,050 - INFO - Progreso: 89% (2176/2427)
+2025-06-14 22:40:18,156 - INFO - Progreso: 90% (2208/2427)
+2025-06-14 22:40:18,200 - INFO - Progreso: 92% (2240/2427)
+2025-06-14 22:40:18,425 - INFO - Progreso: 93% (2272/2427)
+2025-06-14 22:40:18,469 - INFO - Progreso: 94% (2304/2427)
+2025-06-14 22:40:18,514 - INFO - Progreso: 96% (2336/2427)
+2025-06-14 22:40:18,562 - INFO - Progreso: 97% (2368/2427)
+2025-06-14 22:40:18,829 - INFO - Progreso: 98% (2400/2427)
+2025-06-14 22:40:20,891 - INFO - Embeddings precalculados y guardados en caché
+2025-06-14 22:40:20,892 - INFO - Buscador inicializado con 3729 textos
+2025-06-14 22:40:20,893 - INFO - 127.0.0.1 - - [14/Jun/2025 22:40:20] "GET /inicializar_buscador HTTP/1.1" 200 -
+2025-06-14 22:40:20,908 - INFO - Recibida solicitud de búsqueda de textos similares: {'texto': 'Esto es una prueba', 'top_n': 5}
+2025-06-14 22:40:20,908 - INFO - Buscando textos similares a: Esto es una prueba
+2025-06-14 22:40:20,908 - INFO - Obteniendo embedding para texto de consulta: Esto es una prueba...
+2025-06-14 22:40:22,059 - INFO - Calculando similitudes con todos los textos...
+2025-06-14 22:40:22,070 - INFO - Procesando textos 0 a 500 de 2427
+2025-06-14 22:40:22,108 - INFO - Procesando textos 500 a 1000 de 2427
+2025-06-14 22:40:22,144 - INFO - Procesando textos 1000 a 1500 de 2427
+2025-06-14 22:40:22,179 - INFO - Procesando textos 1500 a 2000 de 2427
+2025-06-14 22:40:22,214 - INFO - Procesando textos 2000 a 2427 de 2427
+2025-06-14 22:40:22,245 - INFO - Ordenando resultados por similitud...
+2025-06-14 22:40:22,245 - INFO - Devolviendo los 5 resultados más similares
+2025-06-14 22:40:22,246 - INFO - Resultados encontrados: 5
+2025-06-14 22:40:22,246 - INFO - Primer resultado: {'texto': 'VETEMENTS', 'similitud': 0.47741408113595485, 'similitud_porcentaje': 47.74, 'categoria': 'otro'}
+2025-06-14 22:40:22,246 - INFO - Enviando respuesta con 5 resultados
+2025-06-14 22:40:22,247 - INFO - 127.0.0.1 - - [14/Jun/2025 22:40:22] "POST /buscar_similares HTTP/1.1" 200 -
+2025-06-14 22:40:47,803 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 22:40:47,815 - INFO - 127.0.0.1 - - [14/Jun/2025 22:40:47] "POST /generar HTTP/1.1" 200 -
+2025-06-14 22:41:02,934 - INFO - Recibida solicitud de búsqueda de textos similares: {'texto': 'IS IT TOO LATE  \nTO BECOME  \nA CAT?', 'top_n': 5}
+2025-06-14 22:41:02,935 - INFO - Buscando textos similares a: IS IT TOO LATE  
+TO BECOME  
+A CAT?
+2025-06-14 22:41:02,935 - INFO - Obteniendo embedding para texto de consulta: IS IT TOO LATE  
+TO BECOME  
+A CAT?...
+2025-06-14 22:41:04,405 - INFO - Calculando similitudes con todos los textos...
+2025-06-14 22:41:04,419 - INFO - Procesando textos 0 a 500 de 2427
+2025-06-14 22:41:04,459 - INFO - Procesando textos 500 a 1000 de 2427
+2025-06-14 22:41:04,495 - INFO - Procesando textos 1000 a 1500 de 2427
+2025-06-14 22:41:04,528 - INFO - Procesando textos 1500 a 2000 de 2427
+2025-06-14 22:41:04,561 - INFO - Procesando textos 2000 a 2427 de 2427
+2025-06-14 22:41:04,592 - INFO - Ordenando resultados por similitud...
+2025-06-14 22:41:04,593 - INFO - Devolviendo los 5 resultados más similares
+2025-06-14 22:41:04,594 - INFO - Resultados encontrados: 5
+2025-06-14 22:41:04,594 - INFO - Primer resultado: {'texto': "I'M 30  \nIT'S NEVER  \ntoo LATE  \nto START  \nNOW!\n\nALLSAINTS", 'similitud': 0.4990543640976264, 'similitud_porcentaje': 49.91, 'categoria': 'motivacional_superacion'}
+2025-06-14 22:41:04,594 - INFO - Enviando respuesta con 5 resultados
+2025-06-14 22:41:04,594 - INFO - 127.0.0.1 - - [14/Jun/2025 22:41:04] "POST /buscar_similares HTTP/1.1" 200 -
+2025-06-14 22:41:27,423 - INFO - Recibida solicitud de búsqueda de textos similares: {'texto': "LET'S PRETEND  \nI AM  \nNOT ADDICTED  \nTO COFFEE.", 'top_n': 5}
+2025-06-14 22:41:27,427 - INFO - Buscando textos similares a: LET'S PRETEND  
+I AM  
+NOT ADDICTED  
+TO COFFEE.
+2025-06-14 22:41:27,427 - INFO - Obteniendo embedding para texto de consulta: LET'S PRETEND  
+I AM  
+NOT ADDICTED  
+TO COFFEE....
+2025-06-14 22:41:28,890 - INFO - Calculando similitudes con todos los textos...
+2025-06-14 22:41:28,897 - INFO - Procesando textos 0 a 500 de 2427
+2025-06-14 22:41:28,934 - INFO - Procesando textos 500 a 1000 de 2427
+2025-06-14 22:41:28,970 - INFO - Procesando textos 1000 a 1500 de 2427
+2025-06-14 22:41:29,006 - INFO - Procesando textos 1500 a 2000 de 2427
+2025-06-14 22:41:29,042 - INFO - Procesando textos 2000 a 2427 de 2427
+2025-06-14 22:41:29,072 - INFO - Ordenando resultados por similitud...
+2025-06-14 22:41:29,073 - INFO - Devolviendo los 5 resultados más similares
+2025-06-14 22:41:29,073 - INFO - Resultados encontrados: 5
+2025-06-14 22:41:29,074 - INFO - Primer resultado: {'texto': 'BUT FIRST,  \nCOFFEE', 'similitud': 0.7220452635721772, 'similitud_porcentaje': 72.2, 'categoria': 'vida_cotidiana'}
+2025-06-14 22:41:29,074 - INFO - Enviando respuesta con 5 resultados
+2025-06-14 22:41:29,074 - INFO - 127.0.0.1 - - [14/Jun/2025 22:41:29] "POST /buscar_similares HTTP/1.1" 200 -
+2025-06-14 22:44:16,204 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 22:44:16,211 - INFO - 127.0.0.1 - - [14/Jun/2025 22:44:16] "POST /generar HTTP/1.1" 200 -
+2025-06-14 22:45:01,329 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 22:45:01,335 - INFO - 127.0.0.1 - - [14/Jun/2025 22:45:01] "POST /generar HTTP/1.1" 200 -
+2025-06-14 22:45:37,236 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 22:45:37,240 - INFO - 127.0.0.1 - - [14/Jun/2025 22:45:37] "POST /generar HTTP/1.1" 200 -
+2025-06-14 22:46:09,707 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 22:46:09,712 - INFO - 127.0.0.1 - - [14/Jun/2025 22:46:09] "POST /generar HTTP/1.1" 200 -
+2025-06-16 18:21:01,024 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-16 18:21:01,219 - INFO - Datos cargados: 3729 textos válidos de 3729 filas totales
+2025-06-16 18:21:01,219 - INFO - Textos con categoría asignada: 2427
+2025-06-16 18:21:01,219 - INFO - Clasificando textos por categorías...
+2025-06-16 18:21:01,220 - INFO - Categoría 'reflexion_filosofica': 305 textos
+2025-06-16 18:21:01,220 - INFO - Categoría 'minimalista': 14 textos
+2025-06-16 18:21:01,220 - INFO - Categoría 'amor_relaciones': 310 textos
+2025-06-16 18:21:01,220 - INFO - Categoría 'cita_literaria': 23 textos
+2025-06-16 18:21:01,220 - INFO - Categoría 'autoestima_autoayuda': 236 textos
+2025-06-16 18:21:01,220 - INFO - Categoría 'otro': 287 textos
+2025-06-16 18:21:01,220 - INFO - Categoría 'vida_cotidiana': 206 textos
+2025-06-16 18:21:01,220 - INFO - Categoría 'critica_social': 134 textos
+2025-06-16 18:21:01,220 - INFO - Categoría 'motivacional_superacion': 820 textos
+2025-06-16 18:21:01,220 - INFO - Categoría 'humor_entretenimiento': 1165 textos
+2025-06-16 18:21:01,220 - INFO - Categoría 'anuncio_evento': 229 textos
+2025-06-16 18:21:01,220 - INFO - Categoría 'sin_categoria': 0 textos
+2025-06-16 18:21:01,284 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.139:5002
+2025-06-16 18:21:01,284 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 18:21:26,260 - INFO - 127.0.0.1 - - [16/Jun/2025 18:21:26] "GET / HTTP/1.1" 200 -
+2025-06-16 18:21:26,307 - INFO - 127.0.0.1 - - [16/Jun/2025 18:21:26] "GET / HTTP/1.1" 200 -
+2025-06-16 18:21:26,591 - INFO - 127.0.0.1 - - [16/Jun/2025 18:21:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-16 18:21:26,591 - INFO - 127.0.0.1 - - [16/Jun/2025 18:21:26] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-16 18:21:26,781 - INFO - 127.0.0.1 - - [16/Jun/2025 18:21:26] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-16 18:22:28,330 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-16 18:22:28,356 - INFO - 127.0.0.1 - - [16/Jun/2025 18:22:28] "POST /generar HTTP/1.1" 200 -
+2025-06-16 18:23:42,940 - INFO - Inicializando buscador de textos similares...
+2025-06-16 18:23:43,217 - INFO - Use pytorch device_name: mps
+2025-06-16 18:23:43,217 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-06-16 18:23:48,089 - INFO - Cargando datos desde texto_extraido_categorizado.csv...
+2025-06-16 18:23:48,122 - INFO - Datos cargados: 3729 textos
+2025-06-16 18:23:48,127 - INFO - Todos los embeddings ya están en caché
+2025-06-16 18:23:48,127 - INFO - Buscador inicializado con 3729 textos
+2025-06-16 18:23:48,128 - INFO - 127.0.0.1 - - [16/Jun/2025 18:23:48] "GET /inicializar_buscador HTTP/1.1" 200 -
+2025-06-16 18:23:48,155 - INFO - Recibida solicitud de búsqueda de textos similares: {'texto': "- BEST FRIENDS?  \nNAH,  \nWE'RE BASICALLY  \nA SMALL GANG", 'top_n': 5}
+2025-06-16 18:23:48,155 - INFO - Buscando textos similares a: - BEST FRIENDS?  
+NAH,  
+WE'RE BASICALLY  
+A SMALL GANG
+2025-06-16 18:23:48,155 - INFO - Obteniendo embedding para texto de consulta: - BEST FRIENDS?  
+NAH,  
+WE'RE BASICALLY  
+A SMALL...
+2025-06-16 18:23:50,113 - INFO - Calculando similitudes con todos los textos...
+2025-06-16 18:23:50,126 - INFO - Procesando textos 0 a 500 de 2427
+2025-06-16 18:23:50,166 - INFO - Procesando textos 500 a 1000 de 2427
+2025-06-16 18:23:50,207 - INFO - Procesando textos 1000 a 1500 de 2427
+2025-06-16 18:23:50,445 - INFO - Procesando textos 1500 a 2000 de 2427
+2025-06-16 18:23:50,483 - INFO - Procesando textos 2000 a 2427 de 2427
+2025-06-16 18:23:50,516 - INFO - Ordenando resultados por similitud...
+2025-06-16 18:23:50,517 - INFO - Devolviendo los 5 resultados más similares
+2025-06-16 18:23:50,517 - INFO - Resultados encontrados: 5
+2025-06-16 18:23:50,517 - INFO - Primer resultado: {'texto': "DON'T RUSH INTO A RELATIONSHIP.  \nBE FRIENDS FIRST.  \nMAYBE THEY HAVE HOTTER FRIENDS.  \nTHANK ME LATER.", 'similitud': 0.6734415802042133, 'similitud_porcentaje': 67.34, 'categoria': 'humor_entretenimiento'}
+2025-06-16 18:23:50,517 - INFO - Enviando respuesta con 5 resultados
+2025-06-16 18:23:50,519 - INFO - 127.0.0.1 - - [16/Jun/2025 18:23:50] "POST /buscar_similares HTTP/1.1" 200 -
+2025-06-16 18:24:55,696 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-16 18:24:55,703 - INFO - 127.0.0.1 - - [16/Jun/2025 18:24:55] "POST /generar HTTP/1.1" 200 -
+2025-06-16 18:25:23,634 - INFO - 127.0.0.1 - - [16/Jun/2025 18:25:23] "POST /generar HTTP/1.1" 200 -
+2025-06-16 18:25:28,230 - INFO - 127.0.0.1 - - [16/Jun/2025 18:25:28] "POST /generar HTTP/1.1" 200 -
+2025-06-16 18:25:37,283 - INFO - 127.0.0.1 - - [16/Jun/2025 18:25:37] "POST /generar HTTP/1.1" 200 -
+2025-06-16 18:25:57,732 - INFO - Textos guardados en textos_generados/lote_2.txt
+2025-06-16 18:25:57,733 - INFO - 127.0.0.1 - - [16/Jun/2025 18:25:57] "POST /generar-lote HTTP/1.1" 200 -
+2025-06-16 18:26:10,125 - INFO - 127.0.0.1 - - [16/Jun/2025 18:26:10] "POST /generar HTTP/1.1" 200 -
+2025-06-16 18:26:29,511 - INFO - 127.0.0.1 - - [16/Jun/2025 18:26:29] "GET / HTTP/1.1" 200 -
+2025-06-16 18:26:29,546 - INFO - 127.0.0.1 - - [16/Jun/2025 18:26:29] "GET / HTTP/1.1" 200 -
+2025-06-16 18:26:29,587 - INFO - 127.0.0.1 - - [16/Jun/2025 18:26:29] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-16 18:26:29,587 - INFO - 127.0.0.1 - - [16/Jun/2025 18:26:29] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-16 18:26:29,736 - INFO - 127.0.0.1 - - [16/Jun/2025 18:26:29] "GET /estadisticas HTTP/1.1" 200 -
+2025-06-16 18:26:42,254 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-16 18:26:42,259 - INFO - 127.0.0.1 - - [16/Jun/2025 18:26:42] "POST /generar HTTP/1.1" 200 -
+2025-06-16 18:27:27,068 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-16 18:27:27,092 - INFO - 127.0.0.1 - - [16/Jun/2025 18:27:27] "POST /generar HTTP/1.1" 200 -
+2025-06-16 18:27:54,740 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-16 18:27:54,748 - INFO - 127.0.0.1 - - [16/Jun/2025 18:27:54] "POST /generar HTTP/1.1" 200 -
+2025-06-16 18:30:45,874 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-16 18:30:45,883 - INFO - 127.0.0.1 - - [16/Jun/2025 18:30:45] "POST /generar HTTP/1.1" 200 -
+2025-06-16 18:31:12,142 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-16 18:31:12,147 - INFO - 127.0.0.1 - - [16/Jun/2025 18:31:12] "POST /generar HTTP/1.1" 200 -
+2025-06-17 10:31:34,535 - INFO - 127.0.0.1 - - [17/Jun/2025 10:31:34] "GET / HTTP/1.1" 200 -
+2025-06-17 10:31:34,577 - INFO - 127.0.0.1 - - [17/Jun/2025 10:31:34] "GET / HTTP/1.1" 200 -
+2025-06-17 10:31:34,712 - INFO - 127.0.0.1 - - [17/Jun/2025 10:31:34] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-17 10:31:34,713 - INFO - 127.0.0.1 - - [17/Jun/2025 10:31:34] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-17 10:31:34,880 - INFO - 127.0.0.1 - - [17/Jun/2025 10:31:34] "GET /estadisticas HTTP/1.1" 200 -

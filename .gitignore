@@ -1,0 +1,66 @@
+# Archivos y directorios de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de caché
+*.json
+cache_generador.json
+categorias_cache.json
+textos_cache.json
+
+# Archivos de log
+*.log
+clasificador_log.txt
+
+# Directorios de datos
+imagenes/
+imagenes_instagram/
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Archivos CSV grandes (comentar si se necesitan en el despliegue)
+# *.csv
+
+# Entornos virtuales
+venv/
+ENV/
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
+
+# Archivos de configuración local
+.env
+.env.local

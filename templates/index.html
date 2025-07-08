@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Textos Instagram</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Barra lateral -->
+            <div class="col-md-3 sidebar">
+                <div class="sidebar-header">
+                    <h3><i class="fab fa-instagram"></i> Generador de Textos</h3>
+                    <p>Crea textos estilo Instagram con IA</p>
+                </div>
+                
+                <div class="sidebar-content">
+                    <div class="form-container">
+                        <form id="generador-form">
+                            <div class="mb-3">
+                                <label for="categoria" class="form-label">Categoría</label>
+                                <select class="form-select" id="categoria" name="categoria">
+                                    <option value="ninguna">Todas las categorías</option>
+                                    {% for categoria in categorias %}
+                                    <option value="{{ categoria }}">{{ categoria|capitalize }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="estilo" class="form-label">Estilo (opcional)</label>
+                                <input type="text" class="form-control" id="estilo" name="estilo" placeholder="Ej: poético, directo, reflexivo...">
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="tema" class="form-label">Tema (opcional)</label>
+                                <input type="text" class="form-control" id="tema" name="tema" placeholder="Ej: amistad, viajes, comida...">
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="temperatura" class="form-label">Creatividad: <span id="temp-value">0.7</span></label>
+                                <input type="range" class="form-range" id="temperatura" name="temperatura" min="0.1" max="1.0" step="0.1" value="0.7">
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="modelo" class="form-label">Modelo</label>
+                                <select class="form-select" id="modelo" name="modelo">
+                                    <option value="gpt-3.5-turbo">GPT-3.5 Turbo (más rápido)</option>
+                                    <option value="gpt-4">GPT-4 (mejor calidad)</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3 d-grid">
+                                <button type="button" id="generar-btn" class="btn btn-primary">
+                                    <i class="fas fa-magic"></i> Generar Texto
+                                </button>
+                            </div>
+                            
+                            <hr>
+                            
+                            <div class="mb-3">
+                                <label for="cantidad" class="form-label">Cantidad para lote</label>
+                                <input type="number" class="form-control" id="cantidad" name="cantidad" min="1" max="20" value="5">
+                            </div>
+                            
+                            <div class="mb-3 d-grid">
+                                <button type="button" id="generar-lote-btn" class="btn btn-outline-primary">
+                                    <i class="fas fa-layer-group"></i> Generar Lote
+                                </button>
+                            </div>
+                            
+                            <div class="card mb-4">
+                                <div class="card-header bg-success text-white">
+                                    <h5 class="mb-0">Buscar Textos Similares</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <label for="textoConsulta">Texto a buscar:</label>
+                                        <textarea class="form-control" id="textoConsulta" rows="3" placeholder="Introduce un texto para encontrar frases similares..."></textarea>
+                                    </div>
+                                    <button id="btnBuscarSimilares" class="btn btn-success mt-3">Buscar Similares</button>
+                                    
+                                    <!-- Indicador de carga para búsqueda de similares -->
+                                    <div id="loading-similares" style="display: none; margin-top: 15px;" class="text-center">
+                                        <div class="spinner-border text-primary" role="status"></div>
+                                        <p>Buscando textos similares...</p>
+                                    </div>
+                                    
+                                    <!-- Contenedor para resultados de búsqueda -->
+                                    <div id="resultados-similares" class="mt-4" style="display: none;">
+                                        <h5>Resultados de la búsqueda</h5>
+                                        <div id="resultados-similares-contenido"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="stats-container mt-4">
+                        <div class="stats-header">
+                            <h5>Estadísticas</h5>
+                        </div>
+                        <div class="stats-content" id="stats-content">
+                            <p>Cargando estadísticas...</p>
+                        </div>
+                        <div class="mt-3">
+                            <button id="cargar-mas-btn" class="btn btn-sm btn-outline-primary w-100">
+                                <i class="fas fa-sync"></i> Cargar más textos
+                            </button>
+                            <div id="carga-info" class="small text-muted mt-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contenido principal -->
+            <div class="col-md-9 main-content">
+                <div class="content-header">
+                    <h2>Textos Generados</h2>
+                    <div class="actions">
+                        <button id="copiar-todos-btn" class="btn btn-sm btn-outline-secondary">
+                            <i class="fas fa-copy"></i> Copiar Todos
+                        </button>
+                        <button id="descargar-btn" class="btn btn-sm btn-outline-secondary">
+                            <i class="fas fa-download"></i> Descargar
+                        </button>
+                        <button id="limpiar-btn" class="btn btn-sm btn-outline-danger">
+                            <i class="fas fa-trash"></i> Limpiar
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-body">
+                    <div id="loading" class="text-center d-none">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Cargando...</span>
+                        </div>
+                        <p>Generando texto...</p>
+                    </div>
+                    
+                    <div id="textos-container">
+                        <div class="welcome-message text-center">
+                            <i class="fas fa-pen-fancy display-1 text-muted mb-3"></i>
+                            <h3>Bienvenido al Generador de Textos</h3>
+                            <p>Usa el panel lateral para configurar y generar textos estilo Instagram.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal para mostrar errores -->
+    <div class="modal fade" id="errorModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Error</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="error-message"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -166,7 +166,11 @@ function mostrarMensajeBienvenida() {
 }
 
 // Función para generar un texto
-function generarTexto() {
+// Configuración de reintentos
+const MAX_RETRIES = 3;
+const RETRY_DELAY = 2000; // 2 segundos
+
+function generarTexto(retryCount = 0) {
     mostrarCarga(true);
     
     const formData = new FormData();
@@ -178,9 +182,16 @@ function generarTexto() {
     
     fetch('/generar', {
         method: 'POST',
-        body: formData
+        body: formData,
+        // Aumentamos el timeout a 60 segundos
+        timeout: 60000
     })
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`Error HTTP: ${response.status}`);
+        }
+        return response.json();
+    })
     .then(data => {
         mostrarCarga(false);
         
@@ -191,13 +202,27 @@ function generarTexto() {
         }
     })
     .catch(error => {
-        mostrarCarga(false);
-        mostrarError('Error de conexión: ' + error);
+        console.error('Error en generarTexto:', error);
+        
+        // Verificar si es un error de JSON inválido
+        const isJsonError = error.toString().includes('JSON');
+        
+        // Si hay reintentos disponibles y es un error de JSON, reintentar
+        if (retryCount < MAX_RETRIES && (isJsonError || error.name === 'TimeoutError')) {
+            mostrarNotificacion(`Reintentando generación de texto (${retryCount + 1}/${MAX_RETRIES})...`, 'warning');
+            
+            setTimeout(() => {
+                generarTexto(retryCount + 1);
+            }, RETRY_DELAY);
+        } else {
+            mostrarCarga(false);
+            mostrarError(`Error de conexión (después de ${retryCount} reintentos): ${error}`);
+        }
     });
 }
 
 // Función para generar un lote de textos
-function generarLote() {
+function generarLote(retryCount = 0) {
     mostrarCarga(true);
     
     const formData = new FormData();
@@ -209,9 +234,16 @@ function generarLote() {
     
     fetch('/generar-lote', {
         method: 'POST',
-        body: formData
+        body: formData,
+        // Aumentamos el timeout a 120 segundos para lotes
+        timeout: 120000
     })
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`Error HTTP: ${response.status}`);
+        }
+        return response.json();
+    })
     .then(data => {
         mostrarCarga(false);
         
@@ -247,8 +279,22 @@ function generarLote() {
         }
     })
     .catch(error => {
-        mostrarCarga(false);
-        mostrarError('Error de conexión: ' + error);
+        console.error('Error en generarLote:', error);
+        
+        // Verificar si es un error de JSON inválido
+        const isJsonError = error.toString().includes('JSON');
+        
+        // Si hay reintentos disponibles y es un error de JSON, reintentar
+        if (retryCount < MAX_RETRIES && (isJsonError || error.name === 'TimeoutError')) {
+            mostrarNotificacion(`Reintentando generación de lote (${retryCount + 1}/${MAX_RETRIES})...`, 'warning');
+            
+            setTimeout(() => {
+                generarLote(retryCount + 1);
+            }, RETRY_DELAY * 2); // Doble tiempo para lotes
+        } else {
+            mostrarCarga(false);
+            mostrarError(`Error de conexión (después de ${retryCount} reintentos): ${error}`);
+        }
     });
 }
 

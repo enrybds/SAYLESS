@@ -3,7 +3,7 @@ services:
     name: instagram-text-generator
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn wsgi:app --workers 2 --timeout 120
+    startCommand: gunicorn wsgi:app --workers 2 --timeout 300
     plan: standard
     # Aumentamos los recursos para manejar el modelo de embeddings
     envVars:

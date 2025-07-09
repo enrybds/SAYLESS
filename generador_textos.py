@@ -256,14 +256,16 @@ El texto debe ser breve, impactante y con el mismo tono que los ejemplos."""
             prompt += f"\nTema: {tema}"
         
         # Intentar generar el texto
-        max_retries = 3
+        max_retries = 5  # Aumentamos a 5 reintentos
         for intento in range(max_retries):
             try:
+                # Reducimos max_tokens para acelerar la respuesta
                 response = self.client.chat.completions.create(
                     model=modelo,
                     messages=[{"role": "user", "content": prompt}],
-                    max_tokens=100,
-                    temperature=temperatura
+                    max_tokens=80,  # Reducimos de 100 a 80
+                    temperature=temperatura,
+                    timeout=30  # Timeout explícito de 30 segundos
                 )
                 
                 texto_generado = response.choices[0].message.content.strip()
@@ -280,7 +282,10 @@ El texto debe ser breve, impactante y con el mismo tono que los ejemplos."""
             except Exception as e:
                 logging.error(f"Error en intento {intento+1}/{max_retries}: {e}")
                 if intento < max_retries - 1:
-                    time.sleep(5)  # Esperar antes de reintentar
+                    # Tiempo de espera exponencial entre reintentos
+                    wait_time = 2 ** intento  # 1, 2, 4, 8, 16 segundos
+                    logging.info(f"Esperando {wait_time} segundos antes de reintentar...")
+                    time.sleep(wait_time)
         
         return "Error: No se pudo generar el texto después de varios intentos."
     
@@ -308,18 +313,45 @@ El texto debe ser breve, impactante y con el mismo tono que los ejemplos."""
         textos_generados = []
         
         for i in tqdm(range(cantidad), desc="Generando textos"):
-            texto = self.generar_texto(
-                categoria=categoria,
-                estilo=estilo,
-                tema=tema,
-                temperatura=temperatura,
-                modelo=modelo
-            )
-            textos_generados.append(texto)
+            # Implementamos reintentos a nivel de lote
+            max_retries_lote = 3
+            for intento in range(max_retries_lote):
+                try:
+                    texto = self.generar_texto(
+                        categoria=categoria,
+                        estilo=estilo,
+                        tema=tema,
+                        temperatura=temperatura,
+                        modelo=modelo
+                    )
+                    
+                    # Si llegamos aquí, la generación fue exitosa
+                    textos_generados.append(texto)
+                    
+                    # Pausa para evitar límites de tasa, variable según el modelo
+                    if i < cantidad - 1:
+                        if "gpt-4" in modelo.lower():
+                            time.sleep(1.0)  # Mayor pausa para GPT-4
+                        else:
+                            time.sleep(0.5)  # Pausa estándar para otros modelos
+                    
+                    # Si tuvimos éxito, salimos del bucle de reintentos
+                    break
+                    
+                except Exception as e:
+                    logging.error(f"Error en lote {i+1}, intento {intento+1}/{max_retries_lote}: {e}")
+                    if intento < max_retries_lote - 1:
+                        # Tiempo de espera exponencial entre reintentos
+                        wait_time = 3 ** intento  # 1, 3, 9 segundos
+                        logging.info(f"Esperando {wait_time} segundos antes de reintentar...")
+                        time.sleep(wait_time)
+                    else:
+                        # Si agotamos los reintentos, añadimos un mensaje de error
+                        textos_generados.append(f"Error: No se pudo generar el texto {i+1} después de {max_retries_lote} intentos.")
             
-            # Pausa para evitar límites de tasa
-            if i < cantidad - 1:
-                time.sleep(0.5)
+            # Guardamos el progreso cada 5 textos para no perder todo en caso de error
+            if (i + 1) % 5 == 0 or i == cantidad - 1:
+                self._guardar_cache()
         
         return textos_generados
     
